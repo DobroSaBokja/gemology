@@ -1,0 +1,29 @@
+[28Jan2026 19:43:11.424] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, /home/bokja/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.4.16, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, gemology, --all, --output, /home/bokja/Documents/gemology/src/generated/resources, --existing, /home/bokja/Documents/gemology/src/main/resources]
+[28Jan2026 19:43:11.425] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Eclipse Adoptium; OS Linux arch amd64 version 6.18.3-zen1-1-zen
+[28Jan2026 19:43:11.468] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[28Jan2026 19:43:11.490] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/bokja/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23116!/ Service=ModLauncher Env=CLIENT
+[28Jan2026 19:43:11.641] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/bokja/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.4.16/4de914f18f755c1d5e11d9842c52e48312928187/javafmllanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[28Jan2026 19:43:11.642] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/bokja/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.4.16/8de956db8928e6196ccdf9f39fa59fedd5edbf0a/lowcodelanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[28Jan2026 19:43:11.642] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/bokja/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.4.16/a23beeb33d63c395afee6fc9a5dd27008ab45743/mclanguage-1.20.1-47.4.16.jar is missing mods.toml file
+[28Jan2026 19:43:11.643] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/bokja/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.4.16/2dd456356718e73c81a72bb33fd713863b5c6beb/fmlcore-1.20.1-47.4.16.jar is missing mods.toml file
+[28Jan2026 19:43:11.671] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[28Jan2026 19:43:12.254] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, /home/bokja/.gradle/caches/forge_gradle/assets, --assetIndex, 5, --mod, gemology, --all, --output, /home/bokja/Documents/gemology/src/generated/resources, --existing, /home/bokja/Documents/gemology/src/main/resources]
+[28Jan2026 19:43:12.383] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [gemology]
+[28Jan2026 19:43:14.172] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.16, for MC 1.20.1 with MCP 20230612.114412
+[28Jan2026 19:43:14.173] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.16 Initialized
+[28Jan2026 19:43:14.321] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/bokja/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.16_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.16_mapped_parchment_2023.09.03-1.20.1.jar%23181!/assets/.mcassetsroot' uses unexpected schema
+[28Jan2026 19:43:14.321] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/bokja/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.16_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.16_mapped_parchment_2023.09.03-1.20.1.jar%23181!/data/.mcassetsroot' uses unexpected schema
+[28Jan2026 19:43:14.374] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[28Jan2026 19:43:14.394] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 19 ms
+[28Jan2026 19:43:14.394] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[28Jan2026 19:43:14.410] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 15 ms
+[28Jan2026 19:43:14.410] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: gemology
+[28Jan2026 19:43:14.466] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: gemology finished after 56 ms
+[28Jan2026 19:43:14.466] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: gemology
+[28Jan2026 19:43:14.467] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: gemology finished after 0 ms
+[28Jan2026 19:43:14.467] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id gemology
+[28Jan2026 19:43:14.468] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id gemology finished after 0 ms
+[28Jan2026 19:43:14.468] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id gemology
+[28Jan2026 19:43:14.468] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id gemology finished after 0 ms
+[28Jan2026 19:43:14.468] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 94 ms
+[28Jan2026 19:43:14.470] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 9, old count: 9, new count: 10, removed stale: 0, written: 0
