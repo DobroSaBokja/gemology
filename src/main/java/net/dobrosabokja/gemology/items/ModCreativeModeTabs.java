@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.gemology_tab"))
                     .displayItems(((itemDisplayParameters, output) -> {
                         output.accept(ModItems.GARNET.get());
+                        output.accept(ModItems.RAW_GARNET.get());
                         output.accept(ModBlocks.GARNET_BLOCK.get());
                     }))
                     .build());

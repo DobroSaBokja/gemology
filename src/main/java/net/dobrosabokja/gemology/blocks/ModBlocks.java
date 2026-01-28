@@ -22,6 +22,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> GARNET_BLOCK = registerBlock("garnet_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
 
+    public static final RegistryObject<Block> RAW_GARNET_BLOCK = registerBlock("raw_garnet_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
+
+    public static final RegistryObject<Block> GARNET_ORE = registerBlock("garnet_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHER_QUARTZ_ORE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

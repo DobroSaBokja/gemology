@@ -1,0 +1,18 @@
+# Gradle
+.gradle/
+build/
+
+# Minecraft run stuff
+run/
+
+# IDE junk
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+out/
+
+# OS junk
+.DS_Store
+Thumbs.db
