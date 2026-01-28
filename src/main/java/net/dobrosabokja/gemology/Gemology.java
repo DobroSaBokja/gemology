@@ -1,6 +1,9 @@
 package net.dobrosabokja.gemology;
 
 import com.mojang.logging.LogUtils;
+import net.dobrosabokja.gemology.blocks.ModBlocks;
+import net.dobrosabokja.gemology.items.ModCreativeModeTabs;
+import net.dobrosabokja.gemology.items.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,6 +30,11 @@ public class Gemology {
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
