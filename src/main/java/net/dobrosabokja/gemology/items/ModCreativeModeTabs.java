@@ -22,7 +22,11 @@ public class ModCreativeModeTabs {
                     .displayItems(((itemDisplayParameters, output) -> {
                         output.accept(ModItems.GARNET.get());
                         output.accept(ModItems.RAW_GARNET.get());
+
                         output.accept(ModBlocks.GARNET_BLOCK.get());
+                        output.accept(ModBlocks.RAW_GARNET_BLOCK.get());
+
+                        output.accept(ModBlocks.GARNET_ORE.get());
                     }))
                     .build());
 

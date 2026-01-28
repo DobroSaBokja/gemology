@@ -1,4 +1,10 @@
-// 1.20.1	2026-01-28T19:43:03.837854986	Block States: gemology
+// 1.20.1	2026-01-28T21:12:13.207536358	Block States: gemology
 8ed6c51ccd09c55f3e88fa5cde35ba9c555fbe1b assets/gemology/blockstates/garnet_block.json
+9e8283e1b6fb49db9aee66a18cb4becd91254fd6 assets/gemology/blockstates/garnet_ore.json
+3a965f894c8989cb623a28b54a52507d717ee0c1 assets/gemology/blockstates/raw_garnet_block.json
 61800fa2761a6509a821b1941da9967fb919faab assets/gemology/models/block/garnet_block.json
+e60c240ebc04fd35838e302d4859c8374c210aaa assets/gemology/models/block/garnet_ore.json
+bffceba1b3b8f1310a3c4b109670c02027585fce assets/gemology/models/block/raw_garnet_block.json
 8b53c660c5ce14de6acda83e28ff727f8b45645e assets/gemology/models/item/garnet_block.json
+455f23b8ceea4f06138b40f9189157f14d11eba7 assets/gemology/models/item/garnet_ore.json
+012831c27f3c774e6595b5c2ce48aac82b6a7c7e assets/gemology/models/item/raw_garnet_block.json

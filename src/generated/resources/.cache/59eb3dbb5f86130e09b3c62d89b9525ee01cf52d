@@ -1,2 +1,4 @@
-// 1.20.1	2026-01-28T19:43:03.838038715	Loot Tables
+// 1.20.1	2026-01-28T21:12:13.208157007	Loot Tables
 ce3741de804a02d0f0d4613a7621127f32d8e829 data/gemology/loot_tables/blocks/garnet_block.json
+6a76d54f4c801d7e148f335b035af4a3d4918079 data/gemology/loot_tables/blocks/garnet_ore.json
+692bf07601a7f6a80dbeb0939c85ecf032cb829b data/gemology/loot_tables/blocks/raw_garnet_block.json

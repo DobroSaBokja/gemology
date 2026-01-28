@@ -1,5 +1,9 @@
 {
   "creativetab.gemology_tab": "Gemology",
   "item.gemology.garnet": "Garnet",
-  "block.gemology.garnet_block": "Block of Garnet"
+  "item.gemology.raw_garnet": "Raw Garnet",
+
+  "block.gemology.garnet_block": "Block of Garnet",
+  "block.gemology.raw_garnet_block": "Block of Raw Garnet",
+  "block.gemology.garnet_ore": "Garnet Ore"
 }
