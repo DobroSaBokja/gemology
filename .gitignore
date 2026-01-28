@@ -4,6 +4,7 @@ build/
 
 # Minecraft run stuff
 run/
+run-data/
 
 # IDE junk
 .idea/
