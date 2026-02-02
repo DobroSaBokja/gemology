@@ -18,6 +18,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.GARNET_BLOCK);
         blockWithItem(ModBlocks.RAW_GARNET_BLOCK);
         blockWithItem(ModBlocks.GARNET_ORE);
+
+        blockWithItem(ModBlocks.AMBER_BLOCK);
+        blockWithItem(ModBlocks.RAW_AMBER_BLOCK);
+        blockWithItem(ModBlocks.AMBER_ORE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

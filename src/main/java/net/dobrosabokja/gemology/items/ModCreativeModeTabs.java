@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .icon(() -> new ItemStack(Items.DIAMOND))
                     .title(Component.translatable("creativetab.gemology_tab"))
                     .displayItems(((itemDisplayParameters, output) -> {
+                        // Garnet
                         output.accept(ModItems.GARNET.get());
                         output.accept(ModItems.RAW_GARNET.get());
 
@@ -27,6 +28,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAW_GARNET_BLOCK.get());
 
                         output.accept(ModBlocks.GARNET_ORE.get());
+
+                        // Amber
+                        output.accept(ModItems.AMBER.get());
+                        output.accept(ModItems.RAW_AMBER.get());
+
+                        output.accept(ModBlocks.AMBER_BLOCK.get());
+                        output.accept(ModBlocks.RAW_AMBER_BLOCK.get());
+
+                        output.accept(ModBlocks.AMBER_ORE.get());
                     }))
                     .build());
 

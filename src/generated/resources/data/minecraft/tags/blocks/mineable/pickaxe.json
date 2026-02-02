@@ -2,6 +2,9 @@
   "values": [
     "gemology:garnet_block",
     "gemology:raw_garnet_block",
-    "gemology:garnet_ore"
+    "gemology:garnet_ore",
+    "gemology:amber_block",
+    "gemology:raw_amber_block",
+    "gemology:amber_ore"
   ]
 }

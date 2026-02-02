@@ -16,6 +16,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        // Garnet
         this.dropSelf(ModBlocks.GARNET_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_GARNET_BLOCK.get());
 
@@ -23,6 +24,17 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createOreDrop(
                         ModBlocks.GARNET_ORE.get(),
                         ModItems.RAW_GARNET.get()
+                )
+        );
+
+        // Amber
+        this.dropSelf(ModBlocks.AMBER_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_AMBER_BLOCK.get());
+
+        this.add(ModBlocks.AMBER_ORE.get(),
+                block -> createOreDrop(
+                        ModBlocks.AMBER_ORE.get(),
+                        ModItems.RAW_AMBER.get()
                 )
         );
     }

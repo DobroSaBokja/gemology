@@ -1,0 +1,4 @@
+// 1.20.1	2026-01-28T22:29:28.339293156	Registries
+a170705fcd5203008cc9ae6738756e88d2d5575c data/gemology/forge/biome_modifier/add_garnet_ore.json
+50c35adf8849ccd174ccc21123def820c8ab0229 data/gemology/worldgen/configured_feature/garnet_ore.json
+7252357bf0049274c734bf0cf413a16ac05a58a6 data/gemology/worldgen/placed_feature/sapphire_ore_placed.json

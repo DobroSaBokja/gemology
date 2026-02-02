@@ -17,8 +17,13 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        // Garnet
         simpleItem(ModItems.GARNET);
         simpleItem(ModItems.RAW_GARNET);
+
+        // Amber
+        simpleItem(ModItems.AMBER);
+        simpleItem(ModItems.RAW_AMBER);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

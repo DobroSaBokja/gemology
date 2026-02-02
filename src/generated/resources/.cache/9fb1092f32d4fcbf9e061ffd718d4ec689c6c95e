@@ -1,5 +1,17 @@
-// 1.20.1	2026-01-28T19:43:03.838173582	Recipes
+// 1.20.1	2026-02-02T13:12:35.55176959	Recipes
+21054c4204980b8f744d36fa8412b369fe3e3cd7 data/gemology/advancements/recipes/misc/amber.json
+7eb1ddb78257498b31ee68880bb9a439867af511 data/gemology/advancements/recipes/misc/amber_block.json
 4ccb234d8b767531e8e977497ff08c5e8abc25db data/gemology/advancements/recipes/misc/garnet.json
 affa84ef3b53a423f080eeeeb9eb36c2d0b8fc15 data/gemology/advancements/recipes/misc/garnet_block.json
+bd26ff5f4363a1822fb1c88ea36b2c1b42f7d898 data/gemology/advancements/recipes/misc/raw_amber.json
+42e3e8ebe7fd9a421a358ab78f31908320ec0410 data/gemology/advancements/recipes/misc/raw_amber_block.json
+dcd3f65c6d93181c6a70c2065c508c2e4a562c20 data/gemology/advancements/recipes/misc/raw_garnet.json
+c9b3095b80914b4cc28d11216626afff4b287b48 data/gemology/advancements/recipes/misc/raw_garnet_block.json
+fdc61dcb9936a6c34324326ac5f063c44c863e75 data/gemology/recipes/amber.json
+90cc3c60cb3082d428c29ddc980eaf56eb89afdc data/gemology/recipes/amber_block.json
 4b676d60f4b4c20f9af9d37f14c2fda67538282d data/gemology/recipes/garnet.json
 a621eb5d4daa49bae72377db4e408af0ac7cd838 data/gemology/recipes/garnet_block.json
+55fd1c25958054625b59f38591b9610be7c2a59e data/gemology/recipes/raw_amber.json
+ae40ceb90c43cbe3449b6f193f7ed3e0957700b1 data/gemology/recipes/raw_amber_block.json
+95743c1d8fe29f447d87a12eef43949ba1e389ff data/gemology/recipes/raw_garnet.json
+9c86de8b518cf79b12c925d1c8d61c1766ea080e data/gemology/recipes/raw_garnet_block.json

@@ -20,16 +20,28 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(
+                        // Garnet
                         ModBlocks.GARNET_BLOCK.get(),
                         ModBlocks.RAW_GARNET_BLOCK.get(),
-                        ModBlocks.GARNET_ORE.get()
+                        ModBlocks.GARNET_ORE.get(),
+
+                        // Amber
+                        ModBlocks.AMBER_BLOCK.get(),
+                        ModBlocks.RAW_AMBER_BLOCK.get(),
+                        ModBlocks.AMBER_ORE.get()
                 );
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(
+                        // Garnet
                         ModBlocks.GARNET_BLOCK.get(),
                         ModBlocks.RAW_GARNET_BLOCK.get(),
-                        ModBlocks.GARNET_ORE.get()
+                        ModBlocks.GARNET_ORE.get(),
+
+                        // Amber
+                        ModBlocks.AMBER_BLOCK.get(),
+                        ModBlocks.RAW_AMBER_BLOCK.get(),
+                        ModBlocks.AMBER_ORE.get()
                 );
     }
 }
