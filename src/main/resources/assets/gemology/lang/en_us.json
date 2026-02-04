@@ -13,5 +13,6 @@
 
   "block.gemology.amber_block": "Block of Amber",
   "block.gemology.raw_amber_block": "Block of Raw Amber",
-  "block.gemology.amber_ore": "Amber Ore"
+  "block.gemology.amber_ore": "Amber Ore",
+  "block.gemology.deepslate_amber_ore": "Deepslate Amber Ore"
 }

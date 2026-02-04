@@ -1,4 +1,7 @@
-// 1.20.1	2026-01-28T22:29:28.339293156	Registries
-a170705fcd5203008cc9ae6738756e88d2d5575c data/gemology/forge/biome_modifier/add_garnet_ore.json
+// 1.20.1	2026-02-04T19:11:11.977780137	Registries
+35e9c56cb4d74d1896397bea4baf2356dccb9b45 data/gemology/forge/biome_modifier/add_amber_ore.json
+fdef4c86bac8f2f376279a6fd21eb7bb470b3cf9 data/gemology/forge/biome_modifier/add_garnet_ore.json
+21fdd38eb82933e66195b57eef57e537b9c100ac data/gemology/worldgen/configured_feature/amber_ore.json
 50c35adf8849ccd174ccc21123def820c8ab0229 data/gemology/worldgen/configured_feature/garnet_ore.json
-7252357bf0049274c734bf0cf413a16ac05a58a6 data/gemology/worldgen/placed_feature/sapphire_ore_placed.json
+79262e2983e9a8a35bbe83efc7ad5058d99ab27b data/gemology/worldgen/placed_feature/amber_ore_placed.json
+7252357bf0049274c734bf0cf413a16ac05a58a6 data/gemology/worldgen/placed_feature/garnet_ore_placed.json

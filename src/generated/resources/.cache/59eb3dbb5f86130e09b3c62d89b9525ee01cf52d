@@ -1,6 +1,7 @@
-// 1.20.1	2026-02-02T13:12:35.551592283	Loot Tables
+// 1.20.1	2026-02-04T19:11:11.977563223	Loot Tables
 f383fc2e7bb86ee0f00056c5f39542c77127f933 data/gemology/loot_tables/blocks/amber_block.json
 ece252ca3c76af5e0ea925bf2f5b19d55a4582f3 data/gemology/loot_tables/blocks/amber_ore.json
+9899592d9ba7f9c58959d421fbbb216a7d5823f9 data/gemology/loot_tables/blocks/deepslate_amber_ore.json
 ce3741de804a02d0f0d4613a7621127f32d8e829 data/gemology/loot_tables/blocks/garnet_block.json
 6a76d54f4c801d7e148f335b035af4a3d4918079 data/gemology/loot_tables/blocks/garnet_ore.json
 d9147aa114b6693ba5be989994318e73ad2fcb02 data/gemology/loot_tables/blocks/raw_amber_block.json

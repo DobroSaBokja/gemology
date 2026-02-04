@@ -5,6 +5,7 @@
     "gemology:garnet_ore",
     "gemology:amber_block",
     "gemology:raw_amber_block",
-    "gemology:amber_ore"
+    "gemology:amber_ore",
+    "gemology:deepslate_amber_ore"
   ]
 }

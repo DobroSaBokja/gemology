@@ -16,7 +16,8 @@ import net.minecraft.world.level.levelgen.placement.PlacementModifier;
 import java.util.List;
 
 public class ModPlacedFeatures {
-    public static final ResourceKey<PlacedFeature> GARNET_ORE_PLACED_KEY = registerKey("sapphire_ore_placed");
+    public static final ResourceKey<PlacedFeature> GARNET_ORE_PLACED_KEY = registerKey("garnet_ore_placed");
+    public static final ResourceKey<PlacedFeature> AMBER_ORE_PLACED_KEY = registerKey("amber_ore_placed");
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -28,6 +29,16 @@ public class ModPlacedFeatures {
                 ModOrePlacement.commonOrePlacement(
                         12,
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-68), VerticalAnchor.absolute(80))
+                )
+        );
+
+        register(
+                context,
+                AMBER_ORE_PLACED_KEY,
+                configuredFeatures.getOrThrow(ModConfiguredFeatures.AMBER_ORE_KEY),
+                ModOrePlacement.commonOrePlacement(
+                        60,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-68), VerticalAnchor.absolute(20))
                 )
         );
     }

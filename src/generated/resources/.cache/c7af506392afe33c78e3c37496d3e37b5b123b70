@@ -1,18 +1,21 @@
-// 1.20.1	2026-02-02T13:12:35.550722861	Block States: gemology
+// 1.20.1	2026-02-04T19:11:11.976845864	Block States: gemology
 4cc039bb69d808226a52a642885b0248a5f482e3 assets/gemology/blockstates/amber_block.json
 f07e7c5806e32fbb4055ba946594ff9f5b6d063d assets/gemology/blockstates/amber_ore.json
+72ec6388ed60cab3019955550ce6bd7699b78295 assets/gemology/blockstates/deepslate_amber_ore.json
 8ed6c51ccd09c55f3e88fa5cde35ba9c555fbe1b assets/gemology/blockstates/garnet_block.json
 9e8283e1b6fb49db9aee66a18cb4becd91254fd6 assets/gemology/blockstates/garnet_ore.json
 5b583230246a69928f57e00e6243ea3e84cffae1 assets/gemology/blockstates/raw_amber_block.json
 3a965f894c8989cb623a28b54a52507d717ee0c1 assets/gemology/blockstates/raw_garnet_block.json
 47d8a1d52580b09de41e74739fd4c24ac099ffec assets/gemology/models/block/amber_block.json
 0bb3d73d86d6153c475b4ff602cc6f6b83645a7e assets/gemology/models/block/amber_ore.json
+691e56693a10e93f10fb5ae5abdf34ae6d1a49b5 assets/gemology/models/block/deepslate_amber_ore.json
 61800fa2761a6509a821b1941da9967fb919faab assets/gemology/models/block/garnet_block.json
 e60c240ebc04fd35838e302d4859c8374c210aaa assets/gemology/models/block/garnet_ore.json
 4a4994827f2818250d6863acf19481c3a73767c1 assets/gemology/models/block/raw_amber_block.json
 bffceba1b3b8f1310a3c4b109670c02027585fce assets/gemology/models/block/raw_garnet_block.json
 6e51726beb3a9e27ab58df9f58d3337c1de3d33c assets/gemology/models/item/amber_block.json
 fea0603f3023e604d83e94f975c78e02125447d0 assets/gemology/models/item/amber_ore.json
+87e5d9f6cd79cd6c849a1c504454ff31fdddc024 assets/gemology/models/item/deepslate_amber_ore.json
 8b53c660c5ce14de6acda83e28ff727f8b45645e assets/gemology/models/item/garnet_block.json
 455f23b8ceea4f06138b40f9189157f14d11eba7 assets/gemology/models/item/garnet_ore.json
 6a44b5c1f9183de01bb115bf4f2fd5df6d459a80 assets/gemology/models/item/raw_amber_block.json

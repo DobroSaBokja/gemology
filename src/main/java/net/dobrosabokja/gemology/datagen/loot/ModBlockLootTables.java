@@ -37,6 +37,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                         ModItems.RAW_AMBER.get()
                 )
         );
+
+        this.add(ModBlocks.DEEPSLATE_AMBER_ORE.get(),
+                block -> createOreDrop(
+                        ModBlocks.AMBER_ORE.get(),
+                        ModItems.RAW_AMBER.get()
+                )
+        );
     }
 
     @Override

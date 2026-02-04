@@ -28,7 +28,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         // Amber
                         ModBlocks.AMBER_BLOCK.get(),
                         ModBlocks.RAW_AMBER_BLOCK.get(),
-                        ModBlocks.AMBER_ORE.get()
+                        ModBlocks.AMBER_ORE.get(),
+                        ModBlocks.DEEPSLATE_AMBER_ORE.get()
                 );
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
@@ -41,7 +42,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         // Amber
                         ModBlocks.AMBER_BLOCK.get(),
                         ModBlocks.RAW_AMBER_BLOCK.get(),
-                        ModBlocks.AMBER_ORE.get()
+                        ModBlocks.AMBER_ORE.get(),
+                        ModBlocks.DEEPSLATE_AMBER_ORE.get()
                 );
     }
 }

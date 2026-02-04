@@ -6,6 +6,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BlockTags;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
@@ -13,21 +14,40 @@ import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfigur
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
 import net.minecraft.world.level.levelgen.structure.templatesystem.BlockMatchTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
+import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 
 import java.util.List;
 
 public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> GARNET_ORE_KEY = registerKey("garnet_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> AMBER_ORE_KEY = registerKey("amber_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> DEEPSLATE_AMBER_ORE_KEY = registerKey("amber_ore");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest netherrackReplaceable = new BlockMatchTest(Blocks.NETHERRACK);
+        RuleTest stoneReplaceable = new TagMatchTest(BlockTags.BASE_STONE_OVERWORLD);
+        RuleTest deepslateReplaceable = new BlockMatchTest(Blocks.DEEPSLATE);
 
         List<OreConfiguration.TargetBlockState> garnetOres = List.of(
-                OreConfiguration.target(netherrackReplaceable,
-                ModBlocks.GARNET_ORE.get().defaultBlockState())
+                OreConfiguration.target(
+                        netherrackReplaceable,
+                        ModBlocks.GARNET_ORE.get().defaultBlockState()
+                )
+        );
+
+        List<OreConfiguration.TargetBlockState> amberOres = List.of(
+                OreConfiguration.target(
+                        stoneReplaceable,
+                        ModBlocks.AMBER_ORE.get().defaultBlockState()
+                ),
+                OreConfiguration.target(
+                        deepslateReplaceable,
+                        ModBlocks.DEEPSLATE_AMBER_ORE.get().defaultBlockState()
+                )
         );
 
         register(context, GARNET_ORE_KEY, Feature.ORE, new OreConfiguration(garnetOres, 9));
+        register(context, AMBER_ORE_KEY, Feature.ORE, new OreConfiguration(amberOres, 6));
     }
 
 
