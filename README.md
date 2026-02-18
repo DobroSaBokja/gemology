@@ -1,2 +1,2 @@
 # gemology
-mod im working on :3
+mod ill maybe continue working on in the future:(
